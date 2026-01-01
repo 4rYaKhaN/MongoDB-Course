@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const client = new MongoClient("mongodb://mongocourse:2cjsz4SPND8vgQzcWUhwdr2w6@udb.qepal.com:8302/?authSource=admin");
+const client = new MongoClient("");
 const dbNAME = client.db("mongocourse");
 const db = dbNAME.collection("students");
 console.clear();
